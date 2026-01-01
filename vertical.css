@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@200..900&family=Noto+Serif+TC:wght@200..900&display=swap");
+
+body {
+  writing-mode: vertical-rl;
+  font-family: "Noto Serif TC", "Noto Serif SC", serif;
+  margin-block-end: 0;
+  margin-block-start: 0;
+  font-variant-numeric: tabular-nums;
+}
+
+div {
+  margin: auto 0;
+  height: 500px;
+  position: relative;
+}
+
+h1 {
+  margin: 0;
+  padding-right: 5em;
+  font-size: 1.5em;
+  line-height: 3rem;
+}
+h3 {
+  font-size: 1em;
+  text-indent: 1em;
+  line-height: 1.5em;
+  margin-block-end: 0;
+  margin-block-start: 0;
+}
+p {
+  text-indent: 1em;
+  line-height: 1.5em;
+  font-size: 1em;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  text-align: left;
+}
+nav {
+  background: #fbfbfb;
+  text-indent: 1em;
+  border-left: 1px solid #eaeaea;
+  border-right: 1px solid #eaeaea;
+  display: block;
+  min-height: 20px;
+  margin-right: 0;
+  margin-left: 1.5em;
+  position: relative;
+  color: #999;
+}
+.description {
+  color: #999;
+  text-align: center;
+}
+.author {
+  color: #999;
+  font-style: italic;
+  text-align: center;
+}
+.image {
+  color: #999;
+  font-style: italic;
+  text-align: center;
+}
+.image-desc {
+  color: #555;
+  text-align: center;
+}
+img {
+  max-width: 100%;
+  max-height: 200px;
+  margin: 5px auto;
+  border: 1px solid #ccc;
+}
+.info {
+  color: #999;
+}
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.separator::before,
+.separator::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid gray;
+}
+
+.separator:not(:empty)::before {
+  margin-right: 0.25em;
+}
+
+.separator:not(:empty)::after {
+  margin-left: 0.25em;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+a :hover {
+  text-decoration: underline;
+}
+
+.recent-post {
+  color: gray !important;
+  font-style: italic;
+}
+
+.recent-post-date {
+  color: darkgray !important;
+}
